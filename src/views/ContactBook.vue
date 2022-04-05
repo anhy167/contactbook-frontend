@@ -36,7 +36,6 @@ export default {
             );
     },
         activeContact() {
-            console.log(this.activeIndex);
             if (this.activeIndex < 0) return null;
             return this.contacts[this.activeIndex];
             
